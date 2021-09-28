@@ -30,9 +30,7 @@ export class AppComponent implements OnInit {
     if(userValue > 0) {
       this.getUserSeconds(userValue).subscribe(numArr => {
         this.numberArray = numArr;
-        console.log(this.numberArray);
         this.primeNumber = this.maxPrime(this.numberArray);
-        console.log(this.primeNumber);
       });
     }
   }
