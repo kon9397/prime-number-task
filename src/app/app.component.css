@@ -1,0 +1,32 @@
+.container {
+    width: 30%;
+    margin: 40px auto;
+    padding: 30px;
+    border: 1px solid #707070;
+    border-radius: 5px;
+}
+
+form input, form button {
+    width: 100%;
+    padding: 10px 12px;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+
+
+form button {
+    background-color: #4646ff;
+    color: #fff;
+    border: none;
+    
+}
+
+form button:hover:enabled {
+    cursor: pointer;
+    background-color: #2424d3;
+}
+
+p {
+    font-size: 1.1rem;
+}
